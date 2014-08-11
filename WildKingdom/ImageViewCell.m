@@ -30,7 +30,7 @@
     
     [NSURLConnection sendAsynchronousRequest:request queue:[NSOperationQueue mainQueue] completionHandler:^(NSURLResponse *response, NSData *data, NSError *connectionError) {
         
-        self.idPhoto =  [[NSJSONSerialization JSONObjectWithData:data options:0 error:nil] objectForKey:@"photo_id"];
+        //self.idPhoto =  [[NSJSONSerialization JSONObjectWithData:data options:0 error:nil] objectForKey:@"photo_id"];
 
         self.imageView.image = [UIImage imageWithData:data];
         [self setNeedsLayout];

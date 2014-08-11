@@ -3,6 +3,28 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "-[MapViewController responseWithGeoLocation:]:MapViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[MapViewController viewDidLoad]:MapViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "__34-[ImageViewCell loadImageFromURL:]_block_invoke:ImageViewCell.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[NSJSONSerialization JSONObjectWithData:data options:0 error:nil] ">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__38-[JSONManager makeGeoRequestForPhoto:]_block_invoke:JSONManager.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "criteria">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "-[ViewController collectionView:numberOfItemsInSection:]:ViewController.m">
       </ContextState>
       <ContextState
@@ -15,6 +37,9 @@
                value = "[self.collectionView indexPathForCell:cell] ">
             </PersistentString>
          </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ViewController prepareForSegue:sender:]:ViewController.m">
       </ContextState>
    </ContextStates>
 </VariablesViewState>

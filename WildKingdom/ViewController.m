@@ -136,8 +136,8 @@
                                 dictImage[@"server"],
                                 dictImage[@"id"],
                                 dictImage[@"secret"]];
-    
 
+    cell.idPhoto = dictImage[@"id"];
    [cell loadImageFromURL:imageURLString];
     
     return cell;
